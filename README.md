@@ -22,6 +22,8 @@ The goal was to uncover whether workforce metrics are meaningful signals of comp
 2. **Hiring rate is a warning sign, not a strength** — Newer/Gig Economy companies hired most aggressively right before their worst stock years.
 3. **Revenue per employee is the real predictor** — higher efficiency consistently correlates with better stock outcomes. FAANG leads at $1M–$1.9M per employee vs Established Tech at $450K–$850K.
 
+The overarching story: tech growth has shifted from hiring more people to getting more out of fewer. Companies that hired aggressively tended to see worse stock performance, not better. Attrition had no impact across all categories. Revenue per employee — not team size — turned out to be the clearest signal of long-term stock strength. After 2022, the AI boom pushed this even further, with companies making record revenue while actually cutting headcount.
+
 ---
 
 ## Tools & Stack
@@ -54,7 +56,8 @@ The Tableau dashboard covers:
 - **Revenue per Employee vs Stock Change** scatter plot with trend lines per group
 - **Hiring Rate & Attrition Rate vs Stock Performance** comparison tables
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview]<img width="1604" height="963" alt="tech_workforce_dashboard" src="https://github.com/user-attachments/assets/519e9654-0235-4c52-be49-8b88fa4374c7" />
+
 
 ---
 
@@ -62,6 +65,7 @@ The Tableau dashboard covers:
 
 ```
 ├── README.md
-├── queries/          # SQL scripts for each of the 7 analysis questions
-├── dashboard.png     # Final Tableau dashboard screenshot
+├── tech_workforce_analysis.sql     # SQL scripts for each of the 7 analysis questions
+├── Tech Workforce Dashboard.twbx   # Dashboard Tableau file
+├── tech_workforce_dashboard.png    # Final Tableau dashboard screenshot
 ```
