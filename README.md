@@ -1,6 +1,6 @@
 # Tech Workforce & Market Performance Analysis (2000–2025)
 
-An end-to-end data analytics project exploring how workforce decisions — hiring, attrition, and headcount changes — relate to revenue efficiency and stock market performance across three major tech company groups.
+An end-to-end data analytics project exploring how workforce decisions, such as hiring, attrition, and headcount changes, relate to revenue efficiency and stock market performance across three major tech company groups.
 
 ---
 
@@ -22,7 +22,7 @@ The goal was to uncover whether workforce metrics are meaningful signals of comp
 2. **Hiring rate is a warning sign, not a strength** — Newer/Gig Economy companies hired most aggressively right before their worst stock years.
 3. **Revenue per employee is the real predictor** — higher efficiency consistently correlates with better stock outcomes. FAANG leads at $1M–$1.9M per employee vs Established Tech at $450K–$850K.
 
-The overarching story: tech growth has shifted from hiring more people to getting more out of fewer. Companies that hired aggressively tended to see worse stock performance, not better. Attrition had no impact across all categories. Revenue per employee — not team size — turned out to be the clearest signal of long-term stock strength. After 2022, the AI boom pushed this even further, with companies making record revenue while actually cutting headcount.
+The overarching story: tech growth has shifted from hiring more people to getting more out of fewer. Companies that hired aggressively tended to see worse stock performance, not better. Attrition had no impact across all categories. Revenue per employee, not team size, turned out to be the clearest signal of long-term stock strength. After 2022, the AI boom pushed this even further, with companies making record revenue while actually cutting headcount.
 
 ---
 
@@ -40,7 +40,8 @@ The overarching story: tech growth has shifted from hiring more people to gettin
 
 The analysis was structured around 7 key business questions, using CTEs in Snowflake to:
 
-- Classify companies into groups
+- Classify companies into groups (FAANG, Established Tech, Newer / Gig Economy)
+- Group years into major economic periods (Dot-Com Correction → AI Expansion) for clearer trend comparison
 - Calculate year-over-year revenue changes and revenue per employee
 - Lag workforce metrics by one year to measure their impact on future stock performance
 - Categorize stock outcomes (Explosive Growth → Crash) for comparison
