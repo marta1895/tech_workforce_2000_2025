@@ -66,6 +66,7 @@ The Tableau dashboard covers:
 
 ```
 ├── README.md
+├── snowflake_setup.md              # Instructions for setting up the Kaggle dataset in Snowflake
 ├── tech_workforce_analysis.sql     # SQL scripts for each of the 7 analysis questions
 ├── Tech Workforce Dashboard.twbx   # Dashboard Tableau file
 ├── tech_workforce_dashboard.png    # Final Tableau dashboard screenshot
